@@ -49,15 +49,4 @@ public class SumOfTwoNumbers {
         }
         return new int[0];
     }
-
-    public static void main(String args[]) {
-        int[] nums = new int[]{1, 3, 5, -2, 7, 9};
-//        int[] output = twoNumberSum(nums, 11);
-        int[] output = twoNumbersSumWithlessTimeComplexity(nums, 3);
-//        int[] output = twoNumbersSumWithBestTimeAndSpaceComplexity(nums, 3);
-//        for (int i: output) {
-//            System.out.print(i+" ");
-//        }
-        System.out.println(Arrays.toString(output));
-    }
 }
